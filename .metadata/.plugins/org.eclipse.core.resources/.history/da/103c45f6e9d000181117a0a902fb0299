@@ -1,0 +1,15 @@
+package backprop;
+import java.lang.Math;
+
+
+public class NueralNet {
+	
+	public static void DataGenerator(){
+		// Generates XOR data:
+	}
+	
+	public void Layer() {
+		// 
+	}
+	
+}

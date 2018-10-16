@@ -1,0 +1,20 @@
+package backprop;
+
+import java.lang.Math;
+import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
+import backprop.DataGen;
+
+public class NueralNet {
+	
+	//Main Class
+	public static void main(String[] args) {
+		
+	  DataGen trainData = new DataGen();
+	  
+	}	
+
+}
+
+

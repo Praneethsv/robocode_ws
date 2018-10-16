@@ -1,0 +1,26 @@
+package backprop;
+
+import java.lang.Math;
+
+public class DataGen{
+	// Generates XOR data.
+	
+	//Input Parameters
+	double x1;
+	double x2;
+	
+	//Create the constructor - To intialize the class members and variables
+	DataGen(){
+		x1=0;
+		x2=0;
+	}
+	
+	//Function to assign random value - Function should generate value between -1 to 1
+	public double randomfunc() {
+		double randomVal=0;
+		randomVal = Math.random();
+		
+		return randomVal;
+	}
+	
+}

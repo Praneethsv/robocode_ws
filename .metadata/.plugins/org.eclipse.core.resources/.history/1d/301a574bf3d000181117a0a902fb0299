@@ -1,0 +1,29 @@
+package backprop;
+
+import java.lang.Math;
+import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
+import backprop.DataGen;
+
+public class NueralNet {
+	
+	//Main Class
+	public static void main(String[] args) {
+	
+		// Create Input parameters
+		ArrayList x1_param = new ArrayList(500);
+		ArrayList x2_param = new ArrayList(500);
+		
+		double labelOutput=0;
+		
+	    DataGen trainData = new DataGen();
+	    for(int dataCount=0; dataCount<500; dataCount++) {
+	    	x1_param.add(trainData.randomfunc());
+	    	x2_param.add(trainData.randomfunc());
+	    }
+	  
+	}//End of Main	
+}//End of NeralNet
+
+

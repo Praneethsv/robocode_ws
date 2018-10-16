@@ -1,0 +1,44 @@
+package backprop;
+
+import java.lang.Math;
+import java.text.DecimalFormat;
+import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
+import backprop.DataGen;
+
+public class NueralNet {
+	
+	//Main Class
+	public static void main(String[] args) {
+	
+		// Create Input parameters
+		ArrayList x1_param = new ArrayList(500);
+		ArrayList x2_param = new ArrayList(500);
+		DecimalFormat df = new DecimalFormat("#.##");
+		
+		double labelOutput=0;
+		
+	    DataGen trainData = new DataGen();
+	    
+	    // Data with different parameter values
+	    for(int dataCount=0; dataCount<250; dataCount++) {
+	    	x1_param.add(trainData.randomfunc());
+	    	x2_param.add(trainData.randomfunc());
+	    }//End of for loop
+	    
+	    //Data  with same parameter values
+	    for(int dataCount=0; dataCount<250; dataCount++) {
+	    	double val = trainData.randomfunc();
+	    	x1_param.add(val);
+	    	x2_param.add(val);
+	    }
+	    
+	    //Printing parameter values
+	    for(int dataCount=0; dataCount<250; dataCount++) {
+	    	System.out.print(df.format(x1_param[dataCount]));
+	    }
+	}//End of Main	
+}//End of NeralNet
+
+

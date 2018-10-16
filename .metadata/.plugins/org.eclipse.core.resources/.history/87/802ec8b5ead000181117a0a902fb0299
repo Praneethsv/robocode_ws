@@ -1,0 +1,16 @@
+package backprop;
+import java.lang.Math;
+
+
+public class NueralNet {
+	
+	public static void DataGenerator(){
+		// Generates XOR data:
+	}
+	
+	public void Layer( int in_nuerons, int num_hidden_neurons, int out_neurons) {
+		// Code for Layer . Contains how many no. of neurons
+		
+	}
+	
+}

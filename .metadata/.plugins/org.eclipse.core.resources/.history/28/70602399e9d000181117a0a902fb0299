@@ -1,0 +1,10 @@
+package backprop;
+import java.lang.Math;
+
+public class NueralNet {
+	
+	public static void Datagen{
+		
+	}
+	
+}

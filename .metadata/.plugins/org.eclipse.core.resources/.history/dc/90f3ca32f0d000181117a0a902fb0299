@@ -1,0 +1,30 @@
+package backprop;
+import java.lang.Math;
+import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class NueralNet {
+	
+	public void Layer( int in_nuerons, int num_hidden_neurons, int out_neurons) {
+		// Code for Layer . Contains how many no. of neurons
+		
+	}
+	
+	public void initialize_weights() {
+		// Initialize Weights
+	}
+	
+	public void Sigmoid( double Vector x[]) {
+		// Calculates Sigmoid Activations
+		for(int i =0; i < x. )
+		Math.exp(x[i]);
+	}
+	
+	public void Train() {
+		// Train MLP here.
+	}
+}
+
+

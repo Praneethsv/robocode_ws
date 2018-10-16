@@ -1,0 +1,7 @@
+package fnl;
+
+import robocode.Robot;
+
+public class FnlBot extends Robot {
+
+}
